@@ -1,4 +1,4 @@
-FROM arm32v7/nginx
+FROM arm64v8/nginx
 
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY wordpress.conf /etc/nginx/global/wordpress.conf
